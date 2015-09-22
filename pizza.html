@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Cost</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/js/scripts" name="cost" method="post">
+        <div><br>
+          <label for="topping">Toppings</label>
+          <input type="radio" name="pepperoni" value=1>Pepperoni<br>
+          <input type="radio" name="canadian bacon" value=1>Canadian Bacon<br>
+          <input type="radio" name="sausage" value=1>Sausage<br>
+          <input type="radio" name="none" checked>None<br>
+        </div>
+        <label for="size">Sizes</label><br>
+        <select name="size">
+          <option name="small" value="1">Small</option>
+          <option name="medium" value="2">Medium</option>
+          <option name="large" value="3">Large</option>
+        </select>
+        <br>
+        <label for="quantity">Quantity</label>
+        <input id="quantity" name="quantity" type="text">
+
+        <button type="submit">See Final Price</button>
+
+      </form>
+    </div>
+  </body>
+</html>
