@@ -7,24 +7,24 @@
     <div class="container">
       <form action="/js/scripts" name="cost" method="post">
         <div><br>
-          <label for="topping">Toppings</label>
+          <label for="topping">Toppings</label><br>
           <input type="radio" name="pepperoni" value=1>Pepperoni<br>
           <input type="radio" name="canadian bacon" value=1>Canadian Bacon<br>
           <input type="radio" name="sausage" value=1>Sausage<br>
-          <input type="radio" name="none" checked>None<br>
         </div>
+        <br>
         <label for="size">Sizes</label><br>
         <select name="size">
-          <option name="small" value="1">Small</option>
-          <option name="medium" value="2">Medium</option>
-          <option name="large" value="3">Large</option>
+          <option name="pick" value=0>Choose a Size</option>
+          <option name="small" value=1>Small</option>
+          <option name="medium" value=2>Medium</option>
+          <option name="large" value=3>Large</option>
         </select>
         <br>
-        <label for="quantity">Quantity</label>
+        <label for="quantity">Quantity</label><br>
         <input id="quantity" name="quantity" type="text">
-
+        <hr>
         <button type="submit">See Final Price</button>
-
       </form>
     </div>
   </body>
